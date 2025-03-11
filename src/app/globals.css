@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.icon-button {
+  @apply flex h-8 w-8 items-center justify-center rounded-full border border-grayscale-50 bg-grayscale-50 web:h-14 web:w-14;
+}
+
+.select-button {
+  @apply rounded-3xl border border-grayscale-50 bg-grayscale-50 px-3 py-2 web:rounded-[36px] web:px-4 web:py-2;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge에서 스크롤바 숨기기 */
+}
+
+.text-shadow {
+  text-shadow: 0px 4px 50px rgba(0, 0, 0, 0.5);
+}
